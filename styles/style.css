@@ -13,7 +13,14 @@ img.mainpic{
     height: 355.50px;
     position: relative;
 }
-
+a {
+    color: #383636;
+    text-decoration: none;
+    padding: 7px 14px 7px 14px;
+}
+a:hover {
+    background-color: lightgray;
+}
 
 
 
@@ -57,14 +64,7 @@ ul li {
     text-decoration: none;
     text-align: center;
 }
-a {
-    color: #383636;
-    text-decoration: none;
-    padding: 7px 14px 7px 14px;
-}
-a:hover {
-    background-color: lightgray;
-}
+
 .activevideos {
     text-transform: uppercase;
     background-color: #e388b1;
