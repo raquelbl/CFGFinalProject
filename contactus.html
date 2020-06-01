@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <link rel="text/javascript" src="index.js">
+        <title>Life in Lockdown | Contact Us </title>
+    </head> 
+    <body class="responsive">
+        <header>
+            <nav class="firstNavigation">
+                <ul>
+                    <li><a href="index.html">Thrive in Lockdown</a></li>
+                    <li><a href="nhs.html">NHS Guidance</a></li>
+                    <li><a href="news.html">Good News</a></li>
+                    <li><a href="funvideos.html">Fun Videos</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <br><br>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="health.html">Health</a></li>
+                    <li><a href="Career&business.html">Career & Business</a></li>
+                    <li><a href="mind.html">Mind</a></li>
+                    <li><a href="contactus.html" class="activecontactus">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>  
+    
+    <script type="text/javascript" src="index.js"></script>
+
+        <main>
+            <div class="container">
+                <h1 class="contactus">CONTACT US</h1>
+                <h1 class="contactus">We're in this together</h1>
+        <address>
+            <h4>email: <a href="mailto:contact@thriveinlockdown.com" target="_blank">contact@thriveinlockdown.com</a></h4>
+        </address>
+    
+        <form name="getinfo" action="serveraddress.aspx" method="post" onsubmit="return validationform()" validationautofocus>
+        <fieldset>
+            <legend><b>Send Your Message</b></legend>
+            <div class="form-container">
+                <label>
+                    <input type="radio" name="title" value="mr" />Mr
+                </label>
+                <label>
+                    <input type="radio" name="title" value="mrs" />Mrs
+                </label>
+                <label>
+                    <input type="radio" name="title" value="miss" />Miss
+                </label>
+            </div>
+            <div class="form-container">
+                <label>First Name</label>
+                <div class="form-input">
+                    <input type="text" name="username" autofocus />
+                </div>
+            </div>
+            <div class="form-container">
+                <label>Last Name</label>
+                <div class="form-input">
+                    <input type="text" required />
+                </div>
+            </div>
+            <div class="form-container">
+                <label>Email</label>
+                <div class="form-input">
+                    <input type="email" required />
+                </div>
+            </div>
+            <div class="form-container">
+                <label>Phone Number</label>
+                <div class="form-input">
+                    <input type="tel" font-color="white" required />
+                </div>
+            </div>
+            <div class="form-container">
+                <label>Message</label>
+                <div class="form-input">
+                    <textarea name="Message" color="white" cols="30" rows="10">Add your message here</textarea>
+                </div>
+            </div>
+            <div class="form-container">
+                <input type="submit" value="Send" />
+                <div class="form-input">
+                </div>
+            </div>
+        </fieldset>
+        </form>
+        </main>
+
+        <footer>
+            <p>© Webpage Designed by Thrive During Lockdown Ltd - 2020</p>
+            <p>1000 Dream Street</p>
+            <p>London - UK</p>
+            <p>N1 13UK</p>
+        </footer>
+</body>
+</html>
