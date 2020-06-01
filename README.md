@@ -5,6 +5,6 @@ This is a group project designed and writed in the end of may and begining of Ju
 HTML5, CSs3 and Javascript by Code First Girls.
 
 Group:
-Marta 
-Parker
+Marta <br>
+Parker <br>
 Raquel Bavaresco Lanzarin
