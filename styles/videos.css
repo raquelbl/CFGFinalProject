@@ -1,0 +1,20 @@
+.activevideos {
+    text-transform: uppercase;
+    background-color: #e388b1;
+}
+h1.videos{
+    text-align: 15px;
+    margin: auto;
+    width: auto;
+    line-height: 280%;
+    height: 137px;
+    font-size: 50px;
+    background-color: #ab3c6e;
+    color: white;
+    text-shadow: 5px 10px 3px rgba(0,0,0,0.5);   
+}
+h2.videos{
+    color: #ab3c6e;
+    margin: relative;
+    font-size: 18px;
+}

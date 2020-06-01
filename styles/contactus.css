@@ -21,3 +21,7 @@ legend {
 .form-input {
     margin-top: 5px;
 }
+.activecontactus {
+    text-transform: uppercase;
+    background-color: #836d9c;
+}
