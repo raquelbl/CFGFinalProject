@@ -1,0 +1,24 @@
+.activehome {
+    text-transform: uppercase;
+    background-color: #bf7977;
+}
+h1.home{
+    text-align: 15px;
+    margin: auto;
+    width: auto;
+    line-height: 280%;
+    height: 137px;
+    font-size: 50px;
+    background-color: #9e2c29;
+    color: white;
+    text-shadow: 5px 10px 3px rgba(0,0,0,0.5);              
+}
+h2.home{
+    color: #9e2c29;
+    margin: relative;
+    font-size: 20px;
+}
+h3.home{
+    color:#9e2c29; 
+    font-size: 16px;
+}
