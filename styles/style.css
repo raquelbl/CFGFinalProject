@@ -1,0 +1,149 @@
+#homeprime{
+    width: 533.33px;
+    height: 355.50px;
+    position: relative;
+}
+.article {
+    text-align: 30px;
+    margin: auto;
+    width: 550px;
+    text-align: justify;
+    line-height: 140%;
+    height: 50px;
+}
+.olderarticles{
+    border-left: transparent;
+    border-right: transparent;
+    
+    margin: 10px;
+}
+img{
+    width: 251px;
+    height: 345px;
+    position: relative;
+    margin: 30px;
+}
+img:hover{
+    border: #9e2c29 3px solid;
+}
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+body{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.firstNavigation {
+    margin: 0 auto;
+    display: block;     
+    padding: 10px 0 10px 0;  
+    text-align: center;
+    font-size: 18px;
+}
+ul li {
+    margin: auto;
+    border-left: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+    display: inline-block;
+    padding: 0 10px;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+}
+a {
+    color: #383636;
+    text-decoration: none;
+    padding: 7px 14px 7px 14px;
+}
+a:hover {
+    background-color: lightgray;
+}
+
+.activehome {
+    text-transform: uppercase;
+    background-color: #bf7977;
+}
+.activevideos {
+    text-transform: uppercase;
+    background-color: #e388b1;
+}
+.activecontactus {
+    text-transform: uppercase;
+    background-color: #836d9c;
+}
+h1.home{
+    text-align: 15px;
+    margin: auto;
+    width: auto;
+    line-height: 280%;
+    height: 137px;
+    font-size: 50px;
+    background-color: #9e2c29;
+    color: white;
+    text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                 10px 20px 5px rgba(0,0,0,0.1),
+                 -10px 20px 5px rgba(0,0,0,0.1);
+}
+h2.home{
+    color: #9e2c29;
+    margin: relative;
+    font-size: 18px;
+}
+h1.videos{
+    text-align: 15px;
+    margin: auto;
+    width: auto;
+    line-height: 280%;
+    height: 137px;
+    font-size: 50px;
+    background-color: #ab3c6e;
+    color: white;
+    text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                 10px 20px 5px rgba(0,0,0,0.1),
+                 -10px 20px 5px rgba(0,0,0,0.1);
+}
+h2.videos{
+    color: #ab3c6e;
+    margin: relative;
+    font-size: 18px;
+}
+..responsive{
+    padding: 0 6px;
+}
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    right: 10;
+    bottom: 10;
+    left: 10;
+}
+
+/* phone version */
+@media only screen and
+    (min-width: 320px){
+        .responsive{ 
+            margin: 0px;
+            }
+    }
+
+/* tablet version */
+@media only screen and
+    (min-width: 768px){
+        .responsive{ 
+        margin: 0px;
+        }
+    }
+
+/* desktop version */
+@media only screen and
+    (min-width: 980px){
+        .responsive{ 
+            margin: 0px;
+            }
+    }
