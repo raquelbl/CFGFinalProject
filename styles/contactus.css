@@ -1,3 +1,7 @@
+.activecontactus {
+    text-transform: uppercase;
+    background-color: #836d9c;
+}
 h1.contactus{
     text-align: 15px;
     margin: auto;
@@ -7,9 +11,12 @@ h1.contactus{
     font-size: 50px;
     background-color: #50396b;
     color: white;
-    text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
-                 10px 20px 5px rgba(0,0,0,0.1),
-                 -10px 20px 5px rgba(0,0,0,0.1);
+    text-shadow: 5px 10px 3px rgba(0,0,0,0.5);
+}
+h2.health{
+    color: #50396b;
+    margin: relative;
+    font-size: 22px;
 }
 legend {
     font-size: 22px;
@@ -21,7 +28,22 @@ legend {
 .form-input {
     margin-top: 5px;
 }
-.activecontactus {
-    text-transform: uppercase;
-    background-color: #836d9c;
+#subscription-form{
+    color: white;
+    background-color: #50396b;
+    opacity: 0.78;
+    text-align: center;
+    position: relative;
+    padding: 30px;
+    text-shadow: 5px 10px 3px rgba(0,0,0,0.5);
+    border: #50396b 3px solid;
+}
+.button{
+    background-color: #2e213d;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+a:hover.mainarticle{
+    background-color:transparent;
 }

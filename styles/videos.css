@@ -18,3 +18,22 @@ h2.videos{
     margin: relative;
     font-size: 22px;
 }
+#subscription-form{
+    color: white;
+    background-color: #ab3c6e;
+    opacity: 0.78;
+    text-align: center;
+    position: relative;
+    padding: 30px;
+    text-shadow: 5px 10px 3px rgba(0,0,0,0.5);
+    border: #ab3c6e 3px solid;
+}
+.button{
+    background-color: #5c223c;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+a:hover.mainarticle{
+    background-color:transparent;
+}
