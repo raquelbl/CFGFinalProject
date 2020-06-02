@@ -1,0 +1,160 @@
+/* phone version */
+@media only screen and
+    (min-width: 320px){
+    .responsive{ 
+    margin: 0px;
+    }
+
+/* tablet version */
+@media only screen and
+    (min-width: 768px){
+    .responsive{ 
+    margin: 0px;
+    }
+
+
+/* desktop version */
+@media only screen and
+    (min-width: 980px){
+    .responsive{ 
+    margin: 0px;
+    }
+
+.firstNavigation {
+    margin: 0 auto;
+    display: block;     
+    padding: 10px 0 10px 0;  
+    text-align: center;
+    font-size: 18px;
+}
+    
+    .firstNavigation ul li {
+    margin: auto;
+    border-left: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+    display: inline-block;
+    padding: 0 10px;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+}
+    
+.firstNavigation a {
+    color: #383636;
+    text-decoration: none;
+    padding: 7px 14px 7px 14px;
+}
+    
+.firstNavigation a:hover {
+    background-color: lightgray;
+}
+    
+.activeaboutus {
+    text-transform: uppercase;
+    background-color: #8B4513;
+}
+    
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+    
+h1 {
+    font-size: 35pt;
+    text-align: center;
+    color: white;
+    background-color: #8B4513;
+    position: relative;
+    margin-right: 10;
+    margin-left: 10;
+    margin-top: 50;
+    margin-bottom: 10;
+}
+    
+body {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: 	#8B4513;
+}
+
+#pparker {
+    width: 30%;
+    height: 30%;
+    display: block;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.parker {
+    font-size: 12pt;
+    line-height: 0.9;
+    text-align: centre;
+    text-align: justify;
+    margin-top: 70px;
+    margin-right: 300px;
+    margin-left: 500px;
+    margin-bottom: atuo;
+    padding: 10px;
+}
+
+#praquel {
+    width: 30%;
+    height: 30%;
+    display: block;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.raquel {
+    font-size: 12pt;
+    line-height: 0.9;
+    text-align: justify;
+    margin-top: 50px;
+    margin-right: 300px;
+    margin-left: 500px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+#pmarta {
+    width: 30%;
+    height: 30%;
+    display: block;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}  
+
+.marta {
+    font-size: 12pt;
+    line-height: 0.9;
+    text-align: justify;
+    margin-top: 50px;
+    margin-right: 300px;
+    margin-left: 500px;
+    margin-bottom: 100px;
+    padding: 10px;
+}
+
+footer {
+    color: white;
+    background-color: #8B4513;
+    text-align: center;
+    position: relative;
+    margin-right: 10;
+    margin-left: 10;
+    margin-top: 8
+    0px;
+    margin-bottom: 10;
+    padding: 10px;
+}
