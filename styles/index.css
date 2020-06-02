@@ -1,0 +1,44 @@
+.activeindex {
+    text-transform: uppercase;
+    background-color: #395e6b;
+}
+nav{
+    margin: auto;
+    display: block;   
+    padding: 10px 0;  
+    text-align: center;
+    font-size: 18px;
+}
+nav ul li{
+    margin: auto;
+    border-left: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+    display: inline-block;
+    padding: 0 10px;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+}
+.button{
+    background-color: #395e6b;
+    border-radius: 5px;
+    font-size: larger;
+    border: hidden;
+}
+h1.index{
+    text-align: 15px;
+    margin: auto;
+    width: auto;
+    line-height: 200%;
+    height: 385px;
+    font-size: 50px;
+    background-color: #395e6b;
+    color: white;
+    text-shadow: 5px 10px 3px rgba(0,0,0,0.5);   
+}
+.picturemenu{
+    width: 250px;
+    height: 480px;
+    position: sticky;
+
+}

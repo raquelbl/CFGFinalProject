@@ -70,8 +70,15 @@ img:hover{
     border: black 3px solid;
 }
 
-table tbody tr:first-child {
-    font-size: 16px;
+tbody tr th{
+    font-size: 14px;
+    width: 250px;
+    text-align: justify; 
+    margin: auto;
+    line-height: 120%;
+    margin: 10px auto;
+    height: 10px;
+
 }
 
 footer {
