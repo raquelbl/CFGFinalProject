@@ -1,88 +1,59 @@
-/* phone version */
-@media only screen and
-    (min-width: 320px){
-        .responsive{ 
-        margin: 0px;
-        }
-
-/* tablet version */
-@media only screen and
-    (min-width: 768px){
-        .responsive{ 
-        margin: 0px;
-        }
-
-/* desktop version */
-@media only screen and
-    (min-width: 980px){
-        .responsive{ 
-        margin: 0px;
-        }
-
-
-.firstNavigation {
-    margin: 0 auto;
-    display: block;     
-    padding: 10px 0 10px 0;  
-    text-align: center;
-    font-size: 18px;
-}
-
-.firstNavigation ul li {
-    margin: auto;
-    border-left: 2px solid lightgray;
-    border-right: 2px solid lightgray;
-    display: inline-block;
-    padding: 0 10px;
-    position: relative;
-    text-decoration: none;
-    text-align: center;
-}
-
-.firstNavigation a {
-    color: #383636;
-    text-decoration: none;
-    padding: 7px 14px 7px 14px;
-}
-
-.firstNavigation a:hover {
-    background-color: lightgray;
-}
-
-.activemind {
+.activemind{
     text-transform: uppercase;
-    background-color: coral;
+    background-color: rgb(146, 70, 43);
 }
-
-.container{
-    width: 100%;
-    overflow: hidden;
-}
-
-h1 {
-    font-size: 35pt;
+#box1{
+    font-size: 16px;
+    line-height: 1.3;
+    color: black;
     text-align: center;
+    width: 50%;
+    margin: auto; 
+    padding: auto;
+}
+#box2 {
+    font-size: 16px;
+    line-height: 1.3;
+    color: black; 
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: auto;
+}
+#box3 {
+    font-size: 16px;
+    line-height: 1.3;
+    color: black;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: auto;
+}
+h1.mind{
+    text-align: 15px;
+    margin: auto;
+    width: auto;
+    line-height: 280%;
+    height: 137px;
+    font-size: 50px;
+    background-color: rgb(146, 70, 43);
     color: white;
-    background-color: coral;
-    position: relative;
-    margin-right: 10;
-    margin-left: 10;
-    margin-top: 50px;
-    margin-bottom: 10;
-  }
-
-  body{
-    background-color: white;
-    width: 100%;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 5px 10px 3px rgba(0,0,0,0.5);
 }
-
+h2.mind{
+    color: rgb(146, 70, 43);
+    margin: relative;
+    font-size: 22px;
+}
+h3.mind{
+    color:rgb(146, 70, 43); 
+    font-size: 16px;
+}
 #quote {
     font-size: 12pt;
     line-height: 1.2;
-    text-align: centre;
-    color: coral;
+    text-align: center;
+    color: rgb(146, 70, 43);
     width: 33%;
     margin-top: 10px; 
     margin-right: 500px;
@@ -90,7 +61,6 @@ h1 {
     margin-bottom: 10px;
     padding: 5px;
 }
-
 #mind_image {
     height: 350px;
     width: 280px;
@@ -101,58 +71,30 @@ h1 {
     margin-bottom: 5px;
     padding: 15px;
   }
-
-p {
-    font-size: 12pt;
-    line-height: 1.2;
-    text-align: centre;
-    text-align: justify;
-    margin-top: 50px;
-    margin-right: 360px;
-    margin-left: 500px;
-    margin-bottom: 5px;
-}
-
-#box1 {
-    font-size: 12pt;
-    line-height: 1.2;
-    text-align: justify;
-    text-align: centre;
-    margin-top: 5px; 
-    margin-right: 350px;
-    margin-left: 500px;  
-    margin-bottom: 5px;
-    padding: 10px;
-}
-
-#box2 {
-    font-size: 12pt;
-    line-height: 1.2;
-    text-align: justify;
-    text-align: centre;
-    margin-top: 20px; 
-    margin-right: 350px;
-    margin-left: 350px;
-    margin-bottom: 5px;
-    padding: 10px;
-}
-
-#box3 {
-    font-size: 12pt;
-    line-height: 1.2;
-    text-align: justify;
-    text-align: centre;
-    margin-top: 5px; 
-    margin-right: 350px;
-    margin-left: 350px;
-    margin-bottom: 5px;
-    padding: 10px;
-}
-
 #line {
-    width: 51%;
-    height: 20%;
-    margin-top: 20px;
-    margin-right: 350px;
-    margin-left: 350px;
+    width: 50%;
+    height: 28%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+#subscription-form{
+    color: white;
+    background-color: rgb(146, 70, 43);
+    opacity: 0.78;
+    text-align: center;
+    position: relative;
+    padding: 30px;
+    text-shadow: 5px 10px 3px rgba(0,0,0,0.5);
+    border: rgb(146, 70, 43) 3px solid;
+}
+.button{
+    background-color: rgb(126, 62, 39);
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+a:hover.mainarticle{
+    background-color:transparent;
 }
