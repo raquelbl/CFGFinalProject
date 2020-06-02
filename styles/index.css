@@ -26,37 +26,31 @@ nav ul li{
 }
 .firstmenuoption{
     position: absolute;
-    top: 50%;
-    right: 25%;
-    bottom: 0px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: -150px;
+    left: 160px;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
 }
 .secondmenuoption{
     position: absolute;
-    top: 50%;
+    top: -150px;
     left: 50%;
-    transform: translate(-50%, -50%);
     color: white;
-    font-size: 40px;
+    font-size: 30px;
 }
 .thirdmenuoption{
     position: absolute;
-    top: 50%;
+    top: -150px;
     left: 50%;
-    transform: translate(-50%, -50%);
     color: white;
-    font-size: 40px;
+    font-size: 30px;
 }
 .fourthmenuoption{
     position: absolute;
-    top: 50%;
+    top: -150px;
     left: 50%;
-    transform: translate(-50%, -50%);
     color: white;
-    font-size: 40px;
+    font-size: 30px;
 }
 .button{
     background-color: #395e6b;
