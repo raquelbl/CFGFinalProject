@@ -2,6 +2,39 @@
     text-transform: uppercase;
     background-color: #bf7977;
 }
+.mainarticle{
+    border-left: transparent;
+    border-right: transparent;  
+    margin: auto;
+    margin-top: 10px;
+    width: 50%;
+    text-align: center;
+    line-height: 120%;
+    height: 50%;
+    background-color:transparent;
+}
+img.mainpic{
+    width: 30%;
+    height: 30%;
+    position: relative;
+}
+div.container{
+    margin: auto;
+    display: inline-block;
+    padding: auto;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}
+img{
+    border-left: transparent;
+    border-right: transparent;
+    width: 251px;
+    height: 345px;
+    margin: 30px 30px 0px 20px;
+}
 h1.home{
     text-align: 15px;
     margin: auto;
@@ -22,6 +55,22 @@ h3.home{
     color:#9e2c29; 
     font-size: 16px;
 }
-a:hover.news{
-    background-color: white;
+#subscription-form{
+    color: white;
+    background-color: #9e2c29;
+    opacity: 0.78;
+    text-align: center;
+    position: relative;
+    padding: 30px;
+    text-shadow: 5px 10px 3px rgba(0,0,0,0.5);
+    border: #9e2c29 3px solid;
+}
+.button{
+    background-color: #772321;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+a:hover.mainarticle{
+    background-color:transparent;
 }
