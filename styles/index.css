@@ -29,6 +29,7 @@ nav ul li{
     top: -150px;
     left: 160px;
     color: white;
+    text-align: center;
     font-size: 30px;
 }
 .secondmenuoption{
@@ -36,6 +37,7 @@ nav ul li{
     top: -150px;
     left: 50%;
     color: white;
+    text-align: center;
     font-size: 30px;
 }
 .thirdmenuoption{
@@ -43,6 +45,7 @@ nav ul li{
     top: -150px;
     left: 50%;
     color: white;
+    text-align: center;
     font-size: 30px;
 }
 .fourthmenuoption{
@@ -50,6 +53,7 @@ nav ul li{
     top: -150px;
     left: 50%;
     color: white;
+    text-align: center;
     font-size: 30px;
 }
 .button{
