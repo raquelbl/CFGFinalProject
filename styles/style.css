@@ -70,9 +70,8 @@ img:hover{
     border: black 3px solid;
 }
 
-tbody tr th{
-    font-size: 14px;
-    width: 250px;
+tbody .mainarticle{
+    width: 100px;
     text-align: justify; 
     margin: auto;
     line-height: 120%;
