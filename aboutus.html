@@ -10,32 +10,32 @@
         <title>Life in Lockdown | About Us </title>
     </head> 
 
-<body>
-
-    <header>
+    <body class="responsive">
         <nav>
             <ul>
                 <li><a href="index.html">Thrive in Lockdown</a></li>
                 <li><a href="nhs.html">NHS Guidance</a></li>
-                <li><a href="news.html">Good News</a></li>
+                <li><a href="goodnews.html">Good News</a></li>
                 <li><a href="funvideos.html">Fun Videos</a></li>
-                <li><a href="aboutus.html" class="activeaboutus"> About Us</a></li>
+                <li><a href="aboutus.html" class="activeaboutus">About Us</a></li>
                 <br><br>
                 <li><a href="home.html">Home</a></li>
                 <li><a href="health.html">Health</a></li>
-                <li><a href="Career&business.html">Career & Business</a></li>
+                <li><a href="careerBusiness.html">Career & Business</a></li>
                 <li><a href="mind.html">Mind</a></li>
                 <li><a href="contactus.html">Contact Us</a></li>
             </ul>
-    </header>
+        </nav>
 
-    <main> 
-        <div class="container">
+        <header>
             <h1 class="aboutus">ABOUT US</h1>
-        </div>
+            <h2 class="aboutus">Details about us...</h2>
+        </header>
+
+    <main>
 
     <div class ="parker">
-        <img id="pparker" src="images/parker.png">
+        <img src="images/parker.png">
         <h2> Parker </h2>
         <p> <strong> Best known for: </strong> her addiction to coffee and sarcasm. </p>
         <p> <strong> Can't live without:  </strong> coffee, did you even read the first one? </p>
@@ -43,9 +43,8 @@
         <p> <strong> Believes in: </strong> the potential of human kindness. </p>
     </div>
 
-
     <div class ="raquel">
-        <img id="praquel" src=./raquel.png>
+        <img src="images/raquel.png">
         <h2> Raquel </h2>
         <p> <strong> Best known for: </strong> being positive and stubborn. </p>
         <p> <strong> Can't live without: </strong> friends. </p>
@@ -54,7 +53,7 @@
     </div>
 
     <div class ="marta">
-        <img id="pmarta" src=./marta.png>
+        <img src="images/marta.png">
         <h2> Marta </h2>
         <p> <strong> Best known for: </strong> doing things her way. </p>
         <p> <strong> Can't live without: </strong> coffee and grapefruits. </p>
@@ -62,13 +61,26 @@
         <p> <strong> Believes in: </strong> finding joy in little things. </p>
     </div>
 
-    <footer>
-        <p>© Webpage Designed by Thrive During Lockdown Ltd - 2020</p>
-        <p>1000 Dream Street</p>
-        <p>London - UK</p>
-        <p>N1 13UK</p>
-    </footer>
+    <hr>
+        
+    <form id="subscription-form" action="/submit-email-address">
+        <h3>Get your weekly boost of inspiration straight to your inbox!</h3>
+        <input type="text" placeholder="Type your email" style="font-size: medium; border-radius: 5px;"> 
+        <button class="button" type="submit">Submit</button>
+    </form>
+
+    <hr>
+
+</main>
+
+<script type="text/javascript" src="index.js"></script>
+
+<footer>
+    <p>© Webpage Designed by Thrive During Lockdown Ltd - 2020</p>
+    <p>1000 Dream Street</p>
+    <p>London - UK</p>
+    <p>N1 13UK</p>
+</footer>
 
 </body>
-    
 </html>

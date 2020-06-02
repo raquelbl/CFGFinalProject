@@ -11,12 +11,11 @@
     </head>
 
     <body class="responsive">
-
         <nav>
             <ul>
                 <li><a href="index.html" class="activeindex">Thrive in Lockdown</a></li>
                 <li><a href="nhs.html">NHS Guidance</a></li>
-                <li><a href="news.html">Good News</a></li>
+                <li><a href="goodnews.html">Good News</a></li>
                 <li><a href="funvideos.html">Fun Videos</a></li>
                 <li><a href="aboutus.html">About Us</a></li>
                 <input style="font-size: large; border-radius: 5px;" type="text" placeholder="Search..">
@@ -29,26 +28,37 @@
         </header>
 
         <main>
-            <div class="grid-container">
+            <div>
                 <table>
                 <tr>
                     <th><a href="home.html"><div class="firstmenuoption"><img alt="Home" src="images/home1.jpg">HOME</div></a></th>
                     <th><a href="health.html"><div class="secondmenuoption"><img alt="Health" src="images/health2.jpg">HEALTH</div></a></th>
-                    <th><a href="careerbusiness.html"><div class="thirdmenuoption"><img alt="Career & Business" src="images/career.jpg">CAREER & BUSINESS</div></a></th>
+                    <th><a href="careerBusiness.html"><div class="thirdmenuoption"><img alt="Career & Business" src="images/career.jpg">CAREER & BUSINESS</div></a></th>
                     <th><a href="mind.html"><div class="fourthmenuoption"><img alt="Mind" src="images/mind2.jpg">MIND</div></a></th>
                 </tr>
                 </table>
             </div>
+
+            <hr>
+        
+            <form id="subscription-form" action="/submit-email-address">
+                <h3>Get your weekly boost of inspiration straight to your inbox!</h3>
+                <input type="text" placeholder="Type your email" style="font-size: medium; border-radius: 5px;"> 
+                <button class="button" type="submit">Submit</button>
+            </form>
+    
+            <hr>
+
         </main>
 
         <script type="text/javascript" src="index.js"></script>
 
-        <footer>
-            <p>© Webpage Designed by Thrive During Lockdown Ltd - 2020</p>
-            <p>1000 Dream Street</p>
-            <p>London - UK</p>
-            <p>N1 13UK</p>
-        </footer>
+    <footer>
+        <p>© Webpage Designed by Thrive During Lockdown Ltd - 2020</p>
+        <p>1000 Dream Street</p>
+        <p>London - UK</p>
+        <p>N1 13UK</p>
+    </footer>
 
     </body>
 </html>
