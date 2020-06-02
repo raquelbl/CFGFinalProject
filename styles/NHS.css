@@ -190,7 +190,7 @@ h4 {
     font-size: 128x;
     width: 42%;
     min-width: 350px;
-    font-color: white;
+    color: white;
     border-radius: 5px 5px 0 0;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     display: block;
@@ -217,18 +217,18 @@ h4 {
     width: 20%;
   }
   
-  .surfaces td {
+.surfaces td {
     padding: 15px 15px;
-  }
+}
   
-  .surfaces tbody tr {
+.surfaces tbody tr {
     border-bottom: 1px solid #3865b4;
-  }
+}
   
-  .surfaces tbody tr:nth-of-type(even) {
+.surfaces tbody tr:nth-of-type(even) {
     background-color: #ebf0f9;
-  }
+}
   
-  .surfaces tbody tr: last-of-type {
+.surfaces tbody tr: last-of-type {
     border-bottom: 2px solid #3865b4;
-  }
+}
