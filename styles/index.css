@@ -24,39 +24,35 @@ nav ul li{
 }
 .firstmenuoption{
     position: absolute;
-    display: block;
+    display: inline-block;
     top: -150px;
-    left: 160px;
+    left: 50%;
     color: white;
     text-align: center;
-    font-size: 30px;
 }
 .secondmenuoption{
     position: absolute;
-    display: block;
+    display: inline-block;
     top: -150px;
     left: 50%;
     color: white;
     text-align: center;
-    font-size: 30px;
 }
 .thirdmenuoption{
     position: absolute;
-    display: block;
+    display: inline-block;
     top: -150px;
     left: 50%;
     color: white;
     text-align: center;
-    font-size: 30px;
 }
 .fourthmenuoption{
     position: absolute;
-    display: block;
+    display: inline-block;
     top: -150px;
     left: 50%;
     color: white;
     text-align: center;
-    font-size: 30px;
 }
 img{
     width: 100%;
@@ -74,6 +70,9 @@ img:hover.efect{
     border-radius: 5px;
     transition: all .25s ease-in-out;
     filter: grayscale(0);
+}
+a:hover.efectlink{
+    background-color: transparent;
 }
 .button{
     background-color: #2a454e;
@@ -102,14 +101,13 @@ h1.index{
     color: white;
     text-shadow: 5px 10px 3px rgba(0,0,0,0.5);   
 }
+table{
+    padding-bottom: 100px;
+}
 table tr th{
-    width: 900px;
-    height: 1000px;
+    width: 700px;
+    height: 500px auto;
     position: relative;
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
-}
-table tr th img{
-    width: 250px;
-    height: 480px;
 }
