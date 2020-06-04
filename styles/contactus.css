@@ -13,7 +13,7 @@ h1.contactus{
     color: white;
     text-shadow: 5px 10px 3px rgba(0,0,0,0.5);
 }
-h2.health{
+h2.contactus{
     color: #50396b;
     margin: relative;
     font-size: 22px;
@@ -21,6 +21,11 @@ h2.health{
 legend {
     font-size: 22px;
     font-style: italic;
+    color: #50396b;
+}
+input{
+    margin: 0;
+    font-size: 1.2rem;
 }
 .form-container {
     padding: 10px;
@@ -42,8 +47,5 @@ legend {
     background-color: #2e213d;
     border-radius: 5px;
     color: white;
-    font-size: 18px;
-}
-a:hover.mainarticle{
-    background-color:transparent;
+    font-size: 1.2rem;
 }

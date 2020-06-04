@@ -66,6 +66,7 @@ img:hover.efect{
     border-radius: 5px;
     transition: all .25s ease-in-out;
     filter: grayscale(0);
+    background-color: rgb(70, 35, 10);
 }
 a:hover.efectlink{
     background-color: transparent;
@@ -74,4 +75,11 @@ img{
     filter: grayscale(100%);
     border-radius: 5px;
     transition: all .25s ease-in-out;
+}
+section{
+    text-align: justify;
+    column-count: 3;
+    column-gap: 5rem;
+    column-rule: 1px solid black;
+
 }
