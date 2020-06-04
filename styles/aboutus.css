@@ -24,30 +24,21 @@ h2{
     font-size: 16px;
     line-height: 0.9;
     text-align: center;
-    margin-top: 50px;
-    margin-right: 500px;
-    margin-left: 500px;
-    margin-bottom: 5px;
+    margin: auto;
     padding: 10px;
 }
 .raquel {
     font-size: 16px;
     line-height: 0.9;
     text-align: center;
-    margin-top: 50px;
-    margin-right: 500px;
-    margin-left: 500px;
-    margin-bottom: 5px;
+    margin: auto;
     padding: 10px;
 }
 .marta {
     font-size: 16px;
     line-height: 0.9;
     text-align: center;
-    margin-top: 50px;
-    margin-right: 500px;
-    margin-left: 500px;
-    margin-bottom: 5px;
+    margin: auto;
     padding: 10px;
 }
 
@@ -89,7 +80,6 @@ img{
     border-radius: 5px;
     transition: all .25s ease-in-out;
 }
-<<<<<<< HEAD
 section{
     text-align: justify;
     column-count: 3;
@@ -97,5 +87,3 @@ section{
     column-rule: 1px solid black;
 
 }
-=======
->>>>>>> f736891bef896fd7d900bace7085daaa442111ec
