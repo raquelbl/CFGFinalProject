@@ -24,6 +24,7 @@ nav ul li{
 }
 .firstmenuoption{
     position: absolute;
+    display: block;
     top: -150px;
     left: 160px;
     color: white;
@@ -32,6 +33,7 @@ nav ul li{
 }
 .secondmenuoption{
     position: absolute;
+    display: block;
     top: -150px;
     left: 50%;
     color: white;
@@ -40,6 +42,7 @@ nav ul li{
 }
 .thirdmenuoption{
     position: absolute;
+    display: block;
     top: -150px;
     left: 50%;
     color: white;
@@ -48,6 +51,7 @@ nav ul li{
 }
 .fourthmenuoption{
     position: absolute;
+    display: block;
     top: -150px;
     left: 50%;
     color: white;
