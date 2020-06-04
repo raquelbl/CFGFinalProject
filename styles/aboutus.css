@@ -24,22 +24,31 @@ h2{
     font-size: 16px;
     line-height: 0.9;
     text-align: center;
-    margin: auto;
-    padding: 5px;
+    margin-top: 50px;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-bottom: 5px;
+    padding: 10px;
 }
 .raquel {
     font-size: 16px;
     line-height: 0.9;
     text-align: center;
-    margin: auto;
-    padding: 5px;
+    margin-top: 50px;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-bottom: 5px;
+    padding: 10px;
 }
 .marta {
     font-size: 16px;
     line-height: 0.9;
     text-align: center;
-    margin: auto;
-    padding: 5px;
+    margin-top: 50px;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-bottom: 5px;
+    padding: 10px;
 }
 
 #subscription-form{
@@ -57,6 +66,10 @@ h2{
     border-radius: 5px;
     color: white;
     font-size: 18px;
+}
+
+a:hover.mainarticle{
+    background-color:transparent;
 }
 
 img:hover.efect{
