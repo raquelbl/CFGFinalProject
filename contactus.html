@@ -33,11 +33,12 @@
     </header>
 
     <main>
-        <div class="container">   
-        <form name="getinfo" action="serveraddress.aspx" method="post" onsubmit="return validationform()" validationautofocus>
+    <div>   
+        <form name="guestinfo" method="post" action="subsmission.aspx" onsubmit="return validateform()"
+        validationautocomplete="on">
         <fieldset>
             <legend><strong>Send Your Message</strong></legend>
-            <div class="form-container">
+            <div>
                 <label>
                     <input type="radio" name="title" value="mr" />Mr
                 </label>
@@ -48,43 +49,44 @@
                     <input type="radio" name="title" value="miss" />Miss
                 </label>
             </div>
-            <div class="form-container">
+            <div>
                 <label>First Name</label>
-                <div class="form-input">
-                    <input type="text" name="firstName" placeholder="Type your first name here" autofocus />
+                <div>
+                    <input id="firstName" type="text" name="firstName" placeholder="Enter your first name" autofocus />
                 </div>
             </div>
-            <div class="form-container">
+            <div>
                 <label>Last Name</label>
-                <div class="form-input">
-                    <input type="text" name="lasttName" placeholder="Type your last name here" autofocus required />
+                <div>
+                    <input id="lasttName" type="text" name="lasttName" placeholder="Enter your last name" autofocus required />
                 </div>
             </div>
-            <div class="form-container">
+            <div>
                 <label>Email</label>
-                <div class="form-input">
-                    <input type="email" placeholder="Type your email here" autofocus required />
+                <div>
+                    <input id="email" name="e-mail" type="email" placeholder="Enter your email" autofocus required />
                 </div>
             </div>
-            <div class="form-container">
+            <div>
                 <label>Phone Number</label>
-                <div class="form-input">
-                    <input type="tel" font-color="white" placeholder="Type your phone number here" autofocus required />
+                <div>
+                    <input id="tel" type="tel" placeholder="Enter your phone number" autofocus required />
                 </div>
             </div>
-            <div class="form-container">
+            <div>
                 <label>Message</label>
-                <div class="form-input">
-                    <textarea name="Message" color="white" cols="30" rows="10" placeholder="Add your message here"></textarea>
+                <div>
+                    <textarea id="message" name="Message" color="white" cols="35" rows="10" placeholder="Add your message here" required></textarea>
                 </div>
             </div>
-            <div class="form-container">
-                <input type="submit" value="Send" />
-                <div class="form-input">
-                </div>
+            <div>
+                <button type="submit" class="button">Send Message</button>
             </div>
         </fieldset>
         </form>
+
+    <script type="text/javascript" src="index.js"></script>
+
     </div>
        
     <hr>
@@ -98,8 +100,6 @@
     <hr>
 
     </main>
-
-    <script type="text/javascript" src="index.js"></script>
 
     <footer>
         <p>© Webpage Designed by Thrive During Lockdown Ltd - 2020</p>

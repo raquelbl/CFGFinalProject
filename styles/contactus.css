@@ -33,7 +33,7 @@ input{
 .form-input {
     margin-top: 5px;
 }
-#subscription-form{
+form#subscription-form{
     color: white;
     background-color: #50396b;
     opacity: 0.78;
