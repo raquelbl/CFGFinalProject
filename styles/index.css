@@ -103,10 +103,11 @@ h1.index{
 }
 table{
     padding-bottom: 100px;
+    height: 350px;
 }
 table tr th{
     width: 700px;
-    height: 500px auto;
+    height: 600px auto;
     position: relative;
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
