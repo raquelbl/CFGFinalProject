@@ -19,10 +19,8 @@ nav ul li{
     text-decoration: none;
     text-align: center;
 }
-.containersecondmenu{
-    position: relative;
-    padding: inline-block;
-    color: white;
+.secondmenu{
+    background-color: #7295a1;
 }
 .firstmenuoption{
     position: absolute;
@@ -55,6 +53,23 @@ nav ul li{
     color: white;
     text-align: center;
     font-size: 30px;
+}
+img{
+    width: 100%;
+    filter: grayscale(100%);
+    border-radius: 5px;
+    transition: all .25s ease-in-out;
+}
+a:hover{
+    background-color: lightgray;
+}
+img:hover.efect{
+    border: black 3px solid;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    transition: all .25s ease-in-out;
+    filter: grayscale(0);
 }
 .button{
     background-color: #2a454e;
