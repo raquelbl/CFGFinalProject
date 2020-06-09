@@ -34,8 +34,7 @@
 
     <main>
     <div>   
-        <form name="guestinfo" method="post" action="subsmission.aspx" onsubmit="return validateform()"
-        validationautocomplete="on">
+        <form name="guestinfo" method="POST" action="subsmission.aspx" onsubmit="return validateform()" validationautocomplete="on">
         <fieldset>
             <legend><strong>Send Your Message</strong></legend>
             <div>
@@ -50,10 +49,8 @@
                 </label>
             </div>
             <div>
-                <label>First Name</label>
-                <div>
-                    <input id="firstName" type="text" name="firstName" placeholder="Enter your first name" autofocus />
-                </div>
+                <label for="firstName">First Name:</label>
+                <input id="firstName" type="text" name="firstName" placeholder="Enter your first name" autofocus />
             </div>
             <div>
                 <label>Last Name</label>
